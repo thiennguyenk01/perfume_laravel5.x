@@ -110,7 +110,3 @@ php artisan serve
 * 🔌 RESTful API (for frontend/mobile integration)
 
 ---
-
-
-
----
