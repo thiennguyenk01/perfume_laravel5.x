@@ -1,92 +1,116 @@
-📦 Perfume Laravel 5.x
+# 📦 Perfume Laravel 5.x
 
-A simple e-commerce web application for selling perfumes, built with Laravel 5.x.
+> A simple perfume e-commerce web application built with Laravel 5.x.
 
-🚀 Introduction
+---
 
-This project is a basic perfume shop system developed using Laravel framework. It provides features for managing products, categories, and basic shopping functionality.
+## 🚀 Introduction
 
-Laravel is a powerful PHP framework that simplifies common web development tasks like routing, database handling, and authentication .
+**Perfume Laravel 5.x** is a basic e-commerce system developed using the Laravel framework.
+The project focuses on core functionalities such as product management, category organization, and simple shopping features.
 
-🛠️ Tech Stack
+This project is suitable for learning **MVC architecture**, backend development, and Laravel fundamentals.
 
-Backend: PHP (Laravel 5.x)
+---
 
-Database: MySQL
+## 🛠️ Tech Stack
 
-Frontend: Blade Template, HTML, CSS, JavaScript
+* **Backend:** PHP (Laravel 5.x)
+* **Database:** MySQL
+* **Frontend:** Blade Template, HTML, CSS, JavaScript
+* **Server:** Apache / Nginx
 
-Server: Apache / Nginx
+---
 
-📂 Project Structure
-app/            # Business logic
-bootstrap/      # Framework bootstrap
-config/         # Configuration files
-database/       # Migrations & seeders
-public/         # Public assets
-resources/      # Views (Blade templates)
-routes/         # Web routes
-storage/        # Logs & cache
-⚙️ Installation
-1. Clone project
+## 📂 Project Structure
+
+```bash
+📦 perfume_laravel5.x
+ ┣ 📂 app            # Business logic
+ ┣ 📂 bootstrap      # Framework bootstrap
+ ┣ 📂 config         # Configuration files
+ ┣ 📂 database       # Migrations & seeders
+ ┣ 📂 public         # Public assets
+ ┣ 📂 resources      # Views (Blade templates)
+ ┣ 📂 routes         # Web routes
+ ┗ 📂 storage        # Logs & cache
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone project
+
+```bash
 git clone https://github.com/thiennguyenk01/perfume_laravel5.x.git
 cd perfume_laravel5.x
-2. Install dependencies
+```
+
+### 2. Install dependencies
+
+```bash
 composer install
-3. Create environment file
+```
+
+### 3. Create environment file
+
+```bash
 cp .env.example .env
-4. Generate app key
+```
+
+### 4. Generate application key
+
+```bash
 php artisan key:generate
-5. Configure database
+```
 
-Edit .env:
+### 5. Configure database
 
-DB_DATABASE=your_db
+Edit `.env` file:
+
+```env
+DB_DATABASE=your_database
 DB_USERNAME=root
 DB_PASSWORD=
-6. Run migration
+```
+
+### 6. Run migrations
+
+```bash
 php artisan migrate
-7. Start server
+```
+
+### 7. Start development server
+
+```bash
 php artisan serve
+```
 
-Access: http://localhost:8000
+👉 Access the application at: **http://localhost:8000**
 
-🎯 Features
+---
 
-Product listing (Perfumes)
+## 🎯 Features
 
-Category management
+* 🛍️ Product listing (Perfumes)
+* 📁 Category management
+* ✏️ CRUD operations (Create, Read, Update, Delete)
+* 🎨 Simple UI using Blade templates
+* 🧩 MVC architecture (Route → Controller → Model → View)
 
-Basic CRUD operations
+---
 
-Simple UI with Blade
+## 📌 Future Improvements
 
-MVC architecture (Route → Controller → Model → View)
+* 🔐 User Authentication (Login / Register)
+* 🛒 Shopping Cart & Checkout
+* 💳 Payment Integration
+* 🧑‍💼 Admin Dashboard
+* 🔌 RESTful API (for frontend/mobile integration)
 
-📸 Screenshots
+---
 
-(Add your project screenshots here)
 
-📌 Future Improvements
 
-User authentication (Login/Register)
-
-Shopping cart & checkout
-
-Payment integration
-
-Admin dashboard
-
-REST API
-
-🤝 Contributing
-
-Contributions are welcome!
-
-Fork this repository
-
-Create new branch (feature/your-feature)
-
-Commit your changes
-
-Push and create Pull Request
+---
